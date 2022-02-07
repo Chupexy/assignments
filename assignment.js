@@ -3,12 +3,14 @@ function integer(value1 , value2){
     let x = value1 + value2; 
     return x;
 }
-let x = integer(5,6);
+let x = integer(5,5);
 
 
 if(x <= 10){
-    console.log('36 coins are to be paid as SPECIAL TAX');
+    console.log('SPECIAL TAX');
+    console.log(36);
 
 }else{
-    console.log(`${x * 2} coins are to be paid as regular tax`);
+    console.log('REGULAR TAX');
+    console.log(x * 2);
 }
